@@ -10,29 +10,43 @@
 	margin: 0 5px;
 }		    
 
+/*Seção capa*/
 .btn-apoiador{
-	border: 2px solid #fff;
-	background: #000;
+	border: 4px solid #000;
+	background: #2CE48C;
 	position: relative;
-	color: #fff;
+	color: #000;
 	z-index: 1;
 	border-radius: 30px;
-	height: 100%;
+	font-size: 20px;
 }
 
 .btn-apoiador:hover{
-	color: #000;
-	background: yellow;
+	color: #fff;
+	background: #008C49;
 	border-color: #000;
 	transition: all .50s ease-in-out;
 	-moz-transition: all .50s ease-in-out;
 	-webkit-transition: all .50s ease-in-out;
 }
 
+/*Seção Conteúdo*/
+.bg-cardcurso{
+	background-color: #000;
+	color: #fff;
+}
+
+.bg-cont{
+	background-color: #6D0000;
+}
+
+
+
+
 
 /*Seção Cursos em destaque*/
-.bg-all{
-	background-color: #FEFFBE;
+.bg-capa{
+	background-color: #2CE48C;
 }
 
 .headstyle{
@@ -113,7 +127,7 @@
 
 .secoes-titulos{
 	font-family: 'Roboto Condensed', cursive;
-	font-size: 40px;
+	font-size: 45px;
 }			
 
 p{
