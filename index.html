@@ -15,116 +15,86 @@
 	<!--Fontes de texto !-->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
-	<!-- Galeria de fotos -->
- 	<link rel="stylesheet" type="text/css" href=" https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
 </head>
 <body>
 	<!--Topo !-->
-	<div class="container-fluid bg-capa">
+	<div class="container-fluid bg-menu">
 		<header class="container">
-			<nav class="navbar navbar-light navbar-expand-lg text-center">
-				<a href="#" class="navbar-brand">
-					<img src="img-eduk/.png" height="50"class="d-inline-block align-top">
-				</a>
+			<nav class="navbar navbar-dark navbar-expand-lg text-center">
 				<button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Menu Colapso">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div id="menu" class="collapse navbar-collapse justify-content-center">
 					<ul class="navbar-nav">
 						<li class="nav-item">
-							<a href="#A Eduque-se" class="nav-link font-weight-bold scroll-page">A Eduque-se</a>
+							<a href="#cursos" class="nav-link scroll-page">Cursos</a>
 						</li>
 						<li class="nav-item">
-							<a href="#Conteúdo" class="nav-link font-weight-bold scroll-page">Conteúdo</a>
+							<a href="#sobre" class="nav-link scroll-page">Sobre</a>
 						</li>
-						<li class="nav-item">
-							<a href="#Universidades" class="nav-link font-weight-bold scroll-page">Universidades</a>
-						</li>
+						<!--<li class="nav-item">
+							<a href="#Universidades" class="nav-link scroll-page">Universidades</a>
+						</li> -->
 					</ul>
 				</div>
-				
-				
-			<!--	<div class="col-4 col-md-2 text-right ml-auto">
-					<a href="https://www.facebook.com/SoulFitCT" title="# em Facebook">
-						<span class="icones-nav">
-						<i class="fab fa-facebook">
-						</i>
-						</span>
-					</a>
-					<a href="https://www.instagram.com/soulfitct" title="# em Instagram">
-						<span class="icones-nav">
-						<i class="fab fa-instagram">
-						</i>
-						</span>
-					</a>
-					</div> -->
 				</nav>
 		</header>
 	</div>
 
-	<!-- seção a eduque-se !-->
-	<div id="A Eduque-se" class="container-fluid bg-capa">
-		<div class="container pt-4">
+	<!-- seção capa!-->
+	<div id="capa" class="container-fluid bg-capa">
+		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-md-12 col-sm-12 pb-2">
-					<h1 class="text-justify secoes-titulos my-2">A Eduque-se</h1><hr>
-					<p class="text-justify" style="font-size: 35px;">A Eduque-se estabeleceu uma parceria com professores e universidades, a fim de trazer para o público, conteúdo gratuito de matérias (ou cadeiras) reais de inúmeros cursos presentes nas principais faculdades do país, disponibilizados aqui em forma de cursos online.</p>
-				</div>
-				<div class="col-lg-6 col-md-12 col-sm-12 my-auto text-center">
-					<a href="#" class="btn col-lg-8 col-md-12 btn-apoiador mx-auto"><i>Seja um apoiador!</i></a><br><br><br>
-
-					<a href="#" class="btn col-lg-8 col-md-12 btn-apoiador mx-auto"><i>Ajude financeiramente!</i></a><br><br><br>
-
-					<a href="#" class="btn col-lg-8 col-md-12 btn-apoiador mx-auto"><i>Doe uma aula!</i></a>
+					<h1 class="text-justify titulo-capa my-2">A Eduque-se</h1><hr>
+					<p class="text-justify">Educação online acessível à todos</p>
 				</div>
 			</div>
 		</div>
 	</div>
 	
 
-	<!-- seção Conteúdo (cards de cursos de faculdade, cada card linkado para a página corresp)!-->
-	<div id="Conteúdo" class="container-fluid bg-capa">
-		<div class="container">
-			<h1 class="pt-4 pb-2 text-center secoes-titulos">Conteúdo</h1><hr>
+	<!-- seção cursos!-->
+	<div id="cursos" class="container-fluid bg-white">
+		<div class="container py-5">
+			<h1 class="pt-4 pb-2  secoes-titulos">Cursos disponíveis</h1><hr>
 			<p></p>
 			<div class="row">
 				<div class="col-12 col-lg-3 col-md-6">
-					<div class="card sombra bg-cardcurso">
-						<a href="#">
-						<img src="img-eduk/economiaA.jpg" class="card-img-top">
+					<a href="#">
+					<div class="card sombra bg-cardcurso py-4">
 						<div class="card-body">
-							<h5 class="card-title text-center" style="color:white">ECONOMIA</h5>
+							<h5 class="card-title text-center">ECONOMIA</h5>
 						</div>
-						</a>
 					</div><br>
+					</a>
 				</div>
 				<div class="col-12 col-lg-3 col-md-6">
-					<div class="card sombra bg-cardcurso">
-						<a href="#">
-						<img src="img-eduk/eng-mecanicaA.jpg" class="card-img-top">
+					<a href="#">
+					<div class="card sombra bg-cardcurso py-4">
 						<div class="card-body">
-							<h5 class="card-title text-center" style="color:white">ENGENHARIA MECÂNICA</h5>
+							<h5 class="card-title text-center">DIREITO</h5>
 						</div>
-						</a>
 					</div><br>
+					</a>
 				</div>
 				<div class="col-12 col-lg-3 col-md-6">
-					<div class="card sombra bg-cardcurso">
-						<a href="#">
-						<img src="img-eduk/cicA.jpg" class="card-img-top">
+					<a href="#">
+					<div class="card sombra bg-cardcurso py-4">
 						<div class="card-body">
-							<h5 class="card-title text-center" style="color:white">CIÊNCIA DA COMPUTAÇÃO</h5>
+							<h5 class="card-title text-center">FILOSOFIA</h5>
 						</div>
-					</div></a><br>
+					</div><br>
+					</a>
 				</div>
 				<div class="col-12 col-lg-3 col-md-6">
-					<div class="card sombra bg-cardcurso">
-						<a href="#">
-						<img src="img-eduk/direitoA.jpg" class="card-img-top">
+					<a href="#">
+					<div class="card sombra bg-cardcurso py-4">
 						<div class="card-body">
-							<h5 class="card-title text-center" style="color:white">DIREITO</h5>
+							<h5 class="card-title text-center">SOCIOLOGIA</h5>
 						</div>
-					</div></a>
+					</div><br>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -132,27 +102,46 @@
 
 	
 	<!-- seção Universidades (inha com parágrafo exaltando as parceiras + linha com os logos direcionando para os sites deles)!-->
-	<div id="Universidades" class="container-fluid bg-capa">
+	<div id="sobre" class="container-fluid mb-5">
 		<div class="container">
-			<h1 class="pt-4 pb-2 text-center secoes-titulos">Universidades</h1><hr>
-			<p></p>
-			<div class="row py-4">
-				<div class="col-12 col-lg-3 col-md-6 text-center">
-					<img src="img-eduk/logo-ufrgsA.png">
-				</div>
-				<div class="col-12 col-lg-3 col-md-6 text-center">	
-					<img src="img-eduk/logo-pucrsA.png">
-				</div>
-				<div class="col-12 col-lg-3 col-md-6 text-center">	
-					<img src="img-eduk/logo-unicampA.png">
-				</div>
-				<div class="col-12 col-lg-3 col-md-6 text-center">	
-					<img src="img-eduk/logo-ufcspaA.png">
-				</div>
+			<h1 class="pt-4 pb-2 secoes-titulos">Sobre</h1><hr>
+			<p class="text-justify"> A Eduque-se estabeleceu uma parceria com professores e universidades, a fim de trazer para o público, conteúdo gratuito de matérias (ou cadeiras) reais de inúmeros cursos presentes nas principais faculdades do país, disponibilizados aqui em forma de cursos online.
+			</p>
 			</div>
 		</div>
 	</div>
-	<!-- seção Professores (exaltar os professores, e inserir barra de pesquisa [inserir lista de nomes e sugestão ao digitar])!-->
+	
+	<!--Rodapé -->
+	<footer class="bg-rodape">
+		<div class="container-fluid py-4">
+			<div class="row">
+				<a href="">
+				<div class="col-12 col-sm-6 col-md-4 col-lg-4 text-center">
+					<h4>Doe uma aula!</h6>
+					<span class="icones-nav">
+					<i class="fab fa-youtube"></i>
+					<a href="#" class="text-nav1"></a></span>
+				</div>
+				</a>
+				<a href="">
+				<div class="col-12 col-sm-6 col-md-4 col-lg-4 text-center">
+					<h4>Seja um apoiador!</h6>
+					<span class="icones-nav">
+					<i class="fab fa-github"></i>
+					<a href="#" class="text-nav1"></a></span>
+				</div>
+				</a>
+				<a href="">
+				<div class="col-12 col-sm-6 col-md-4 col-lg-4 text-center">
+					<h4>Contribua financeiramente!</h6>
+					<span class="icones-nav">
+					<i class="fas fa-hand-holding-usd"></i>
+					<a href="#" class="text-nav1"></a></span>
+				</div>
+				</a>
+			</div>
+		</div>
+	</footer>
 			
 
 	
@@ -163,10 +152,5 @@
 	<script type="text/javascript" src="js/jquery.counterup.min.js"></script>
 	<script type="text/javascript" src="js/waypoints.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-
-	<script>
-    	baguetteBox.run('.tz-gallery');
-	</script>
 </body>
 </html>

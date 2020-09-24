@@ -32,8 +32,8 @@
 
 /*Seção Conteúdo*/
 .bg-cardcurso{
-	background-color: #000;
-	color: #fff;
+	background-color:#2CE48C;
+	color: #fff !important;
 }
 
 .bg-cont{
@@ -41,12 +41,16 @@
 }
 
 
-
-
+.bg-menu{
+	background-color: #3d4656;
+	color: #fff;
+}
 
 /*Seção Cursos em destaque*/
 .bg-capa{
-	background-color: #2CE48C;
+	background-color: #3d4656;
+	padding: 100px 0px 100px 0;
+	color: #fff;
 }
 
 .headstyle{
@@ -84,13 +88,12 @@
 /*Seção Contato*/
 
 /*Rodapé*/
-.bg-rodape2{
-	background-color: #0F0451;
-	color: #fff;
+.bg-rodape{
+	background-color: #1b1f23 !important;
 }
 
-.bg-rodape2 h3{
-	font-size: 15px;
+.bg-rodape h4{
+	color: white;
 }
 
 /*.btn-whats{
@@ -125,9 +128,16 @@
 	box-shadow: 0 0 20px 0 rgba(0,0,0,0.1)
 }
 
+.titulo-capa{
+	font-family: 'Roboto Condensed', cursive;
+	font-size: 48px;
+
+
+}
+
 .secoes-titulos{
 	font-family: 'Roboto Condensed', cursive;
-	font-size: 45px;
+	font-size: 32px;
 }			
 
 p{
