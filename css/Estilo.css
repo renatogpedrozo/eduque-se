@@ -36,6 +36,11 @@
 	color: #fff !important;
 }
 
+.bg-cardcursovago{
+	background-color:#aec9bc;
+	color: #fff !important;
+}
+
 .bg-cont{
 	background-color: #6D0000;
 }
@@ -55,17 +60,23 @@
 
 .headstyle{
 	background-color: #fff;
-	border: 1px solid #000;
+	border: 1px 1px 1px 1px solid #000;
 	border-radius: 5px; 
 }
 
 .headstyle:hover{
 	background: #C6C6C6;
-	border: 1px solid #;
+	border: 1px 1px 1px 1px solid #fff;
 	border-radius: 5px; 
 	transition: all .50s ease-in-out;
 	-moz-transition: all .50s ease-in-out;
 	-webkit-transition: all .50s ease-in-out;
+}
+
+.card-aulas{
+	background-color: #3d4656;
+	border: 2px solid #000;
+	color: #fff;
 }
 
 .texto-cor{
@@ -85,16 +96,48 @@
 	border-radius: 3px;
 }
 
-/*Seção Contato*/
+/*Página apoiador*/
+.bg-doa{
+	background-color: #3d4656;
+	padding: 100px 0px 100px 0;
+	color: #fff;
+}
+
+.bg-ajuda{
+	background-color: #3d4656;
+	padding: 100px 0px 100px 0;
+	color: #fff;
+}
+
+.bg-apoia{
+	background-color: #3d4656;
+	padding: 100px 0px 100px 0;
+	color: #fff;
+}
 
 /*Rodapé*/
 .bg-rodape{
 	background-color: #1b1f23 !important;
+	color: #fff;
 }
+
+.bg-exatas{
+	background-color: #fff !important;
+	padding: 150px 0 0 0;
+}
+/*25476F*/
 
 .bg-rodape h4{
 	color: white;
 }
+
+.icones-rodape{
+	font-size: 40px;
+}		    
+
+.icones-apoiadores{
+	font-size: 60px;
+}		    
 
 /*.btn-whats{
 	border: 1.3px solid #30bc66;
