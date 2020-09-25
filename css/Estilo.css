@@ -74,9 +74,8 @@
 }
 
 .card-aulas{
-	background-color: #3d4656;
+	background-color: #D5DCDA; /*#3d4656;*/
 	border: 2px solid #000;
-	color: #fff;
 }
 
 .texto-cor{
@@ -98,19 +97,19 @@
 
 /*Página apoiador*/
 .bg-doa{
-	background-color: #3d4656;
+	background-color: #5C1B2A;
 	padding: 100px 0px 100px 0;
 	color: #fff;
 }
 
 .bg-ajuda{
-	background-color: #3d4656;
+	background-color: #4D2D5C;
 	padding: 100px 0px 100px 0;
 	color: #fff;
 }
 
 .bg-apoia{
-	background-color: #3d4656;
+	background-color: #305C37;
 	padding: 100px 0px 100px 0;
 	color: #fff;
 }
