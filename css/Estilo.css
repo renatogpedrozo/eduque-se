@@ -47,16 +47,18 @@
 
 
 .bg-menu{
-	background-color: #3d4656;
+	background-color: #617ca9;
 	color: #fff;
 }
 
 /*Seção Cursos em destaque*/
 .bg-capa{
-	background-color: #3d4656;
+	background-color: #617ca9;
 	padding: 100px 0px 100px 0;
 	color: #fff;
 }
+
+
 
 .headstyle{
 	background-color: #fff;
@@ -132,6 +134,9 @@
 
 .icones-rodape{
 	font-size: 40px;
+	margin: 30px 20px 20px 20px;
+	color: #d1cfcf;
+
 }		    
 
 .icones-apoiadores{
@@ -173,6 +178,7 @@
 .titulo-capa{
 	font-family: 'Roboto Condensed', cursive;
 	font-size: 48px;
+	font-weight: 400;
 
 
 }
@@ -180,7 +186,15 @@
 .secoes-titulos{
 	font-family: 'Roboto Condensed', cursive;
 	font-size: 32px;
-}			
+}		
+
+.titulo-rodape{
+	font-family: 'Roboto Condensed', cursive;
+	font-size: 20px;
+	color: #d1cfcf;
+}	
+
+
 
 p{
 	font-family: 'Roboto Condensed', cursive;
@@ -202,4 +216,11 @@ h5{
 h6{
 	font-family: 'Roboto Condensed', cursive;
 	font-size: 20px;
+}
+
+.texto-rodape{
+	font-family: 'Roboto ligth', sans-serif;
+	font-size: 14px;
+	color: #d1cfcf;
+
 }
